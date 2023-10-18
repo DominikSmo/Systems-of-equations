@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{mathtools}
+\usepackage{geometry}
+
+
+\begin{document}
+\begin{titlepage}
+\huge\textbf{Systems of linear equations}
+\subparagraph*\large\textbf{(The determinants method)}   
+\end{titlepage}
+
+\normalsize
+
+
+
+Solve a system of equations:
+    
+
+$$\left\{\begin{array}{rcl}
+    16x - 27y&=&20\\
+    5x + 18y&=&41,5
+    \end{array} \right.$$\\
+
+We need to reduce the second equation to a simpler form. Therefore, we multiply the second equation by 2 on both sides 
+and get the following:
+
+$$\left\{\begin{array}{rcl}
+    16x - 27y&=&20\\
+    10x + 36y&=&83
+    \end{array} \right.$$\\
+
+
+Then we will use the determinant method:
+
+$$W=\begin{vmatrix}
+    16&-27 \\ 
+    10&36 
+   \end{vmatrix}$$
+
+$$W_{1}=\begin{vmatrix}
+    20&-27 \\ 
+    83& 36
+   \end{vmatrix}$$
+
+$$W_{2}=\begin{vmatrix}
+    16&20 \\ 
+    10&83
+   \end{vmatrix}$$
+
+Then:
+
+$$W=846$$\\
+$$W_{1}=2 961$$\\
+$$W_{2}=1 128$$\\
+
+We calculate the unknowns x and y:
+
+$$x=\frac{W_{1}}{W}$$\\
+$$y=\frac{W_{2}}{W}$$\\
+
+That is:
+
+$$x=\frac{7}{2}$$\\
+$$y=\frac{4}{3}$$\\
+
+Solution: $$\left ({x=\frac{7}{2}} ;{y=\frac{4}{3}}  \right )$$
+
+
+
+
+
+
+
+\end{document}
